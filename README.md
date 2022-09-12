@@ -27,18 +27,18 @@ Data tools: Python 3.7.6, Jupyter Notebook, sklearn, plotly, hvplot
 ### Preprocessing the Data for PCA
 By using Pandas, we preprocess the dataset in order to perform PCA. A new DataFrame is created that stores all cryptocurrency names from the CoinName column and retains the index from the crypto_df DataFrame. The below image shows the crypto_df DataFrame:
 
-![]()
+![](https://github.com/akthersr/Cryptocurrencies/blob/main/devliverable%201.png)
 
 ### Reducing Data Dimensions Using PCA
 Using the Principal Component Analysis (PCA) algorithm, we reduce the dimensions of the X DataFrame to three principal components and place these dimensions in a new DataFrame. A new DataFrame named pcs_df was created that includes the following columns, PC 1, PC 2, and PC 3, and uses the index of the crypto_df DataFrame as the index.The below figure shows the dataframe:
 
-![]()
+![](https://github.com/akthersr/Cryptocurrencies/blob/main/devliverable%202.png)
 
 ### Clustering Cryptocurrencies Using K-means
 
 With K-means algorithm, we will create an elbow curve using hvPlot to find the best value for K from the pcs_df DataFrame. Then, we will run the K-means algorithm to predict the K clusters for the cryptocurrencies’ data.The following image shows the new clustered_df dataframe:
 
-![]()
+![](https://github.com/akthersr/Cryptocurrencies/blob/main/devliverable%203.png)
 
 ### Visualizing Cryptocurrencies Results
 
@@ -50,17 +50,17 @@ We create a 3D scatter plot using the Plotly Express scatter_3d() function to pl
 
 The below image shows us the table for tradable cryptocurrencies:
 
-![]()
+![](https://github.com/akthersr/Cryptocurrencies/blob/main/devliverable%204.png)
 
 #### 2D-Scatter plot 
 
 In order to create a 2D-Scatter plot of TotalCoinMined vs TotalCoinSupply, a new dataframe was created containing these columns, and CoinNames and Class columns from the previous dataset.
 
-![]()
+![](https://github.com/akthersr/Cryptocurrencies/blob/main/devliverable%204.1.png)
 
 The below image shows the 2D-Scatter plot. 
 
-
+![](https://github.com/akthersr/Cryptocurrencies/blob/main/devliverable%204.2.png)
 
 
 
