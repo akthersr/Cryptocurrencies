@@ -34,15 +34,15 @@ Using the Principal Component Analysis (PCA) algorithm, we reduce the dimensions
 
 ![]()
 
-###Clustering Cryptocurrencies Using K-means
+### Clustering Cryptocurrencies Using K-means
 
 With K-means algorithm, we will create an elbow curve using hvPlot to find the best value for K from the pcs_df DataFrame. Then, we will run the K-means algorithm to predict the K clusters for the cryptocurrencies’ data.The following image shows the new clustered_df dataframe:
 
 ![]()
 
-###Visualizing Cryptocurrencies Results
+### Visualizing Cryptocurrencies Results
 
-####3D-Scatter plot 
+#### 3D-Scatter plot 
 
 We create a 3D scatter plot using the Plotly Express scatter_3d() function to plot the three clusters from the clustered_df DataFrame.
 
@@ -52,7 +52,7 @@ The below image shows us the table for tradable cryptocurrencies:
 
 ![]()
 
-####2D-Scatter plot 
+#### 2D-Scatter plot 
 
 In order to create a 2D-Scatter plot of TotalCoinMined vs TotalCoinSupply, a new dataframe was created containing these columns, and CoinNames and Class columns from the previous dataset.
 
