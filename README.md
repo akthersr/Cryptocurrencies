@@ -46,7 +46,7 @@ With K-means algorithm, we will create an elbow curve using hvPlot to find the b
 
 We create a 3D scatter plot using the Plotly Express scatter_3d() function to plot the three clusters from the clustered_df DataFrame.
 
-![]()
+![](https://github.com/akthersr/Cryptocurrencies/blob/main/3d.png)
 
 The below image shows us the table for tradable cryptocurrencies:
 
